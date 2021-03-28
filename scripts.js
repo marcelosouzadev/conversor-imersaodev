@@ -1,4 +1,4 @@
-const conversor = document.getElementById('button');
+const conversor = document.getElementById('button')
 
 conversor.onclick = ('button') => 
 {
