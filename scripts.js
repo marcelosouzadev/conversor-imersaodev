@@ -1,6 +1,6 @@
 const conversor = document.querySelector('button')
 
-conversor.onclick = () => 
+conversor.onclick = ('button') => 
 {
   var ValorKm = Number(document.querySelector('input').value.replace('.',','))
   if (ValorKm < 1) 
