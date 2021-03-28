@@ -1,10 +1,9 @@
-const conversor = document.querySelector('button')
+const conversor = document.getElementById('button');
 
 conversor.onclick = ('button') => 
 {
   var ValorKm = Number(document.querySelector('input').value.replace('.',','))
-  if (ValorKm < 1) 
-  {
+  if (ValorKm < 1) {
 document.querySelector('span').innerHTML = "Valor inválido!"
   } 
   else {
