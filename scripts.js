@@ -8,7 +8,7 @@ conversor.onclick = () =>
 document.querySelector('span').innerHTML = "Valor inválido!"
   } 
   else {
-document.querySelector('span').innerHTML = 'Resultado: ' + (ValorMilhas * 0.62) + ' milhas. ' + ' Deixe seu like se gostou. Obrigado, Marcelo!'
+document.querySelector('span').innerHTML = 'Resultado: ' + (ValorMilhas * 0.62) + ' milhas' 
   }  
 }
 
