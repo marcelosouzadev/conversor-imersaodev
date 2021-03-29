@@ -1,4 +1,4 @@
-document.getElementById("botao").onclick = function() {
+document.querySelector('button').onclick = function() {
 
   var ValorKm = Number(document.querySelector('input').value.replace('.',','))
   
@@ -9,5 +9,3 @@ document.querySelector('span').innerHTML = "Valor inválido!"
 document.querySelector('span').innerHTML = 'Resultado: ' + (ValorKm * 0.62) + ' milhas' 
   }  
 }
-
-//
