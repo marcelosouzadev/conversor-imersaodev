@@ -18,15 +18,16 @@ body {
   right: 0;
   height: 80px;
 }
+.alura-logo {
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  left:20px;
+}
 .container {
   text-align: center;
   padding: 15px;
   height: 100vh;
-}
-.page-title {
-  color: black;
-  margin: 10px;
-  margin-top: 20px;
 }
 .page-logo {
   width: 200px;
@@ -34,12 +35,6 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-}
-.alura-logo {
-  width: 50px;
-  position: absolute;
-  top: 10px;
-  left:20px;
 }
 main {
   width: 400px;
@@ -61,10 +56,12 @@ main {
 .caixa {
   padding: 15px;
 }
-label {
+p {
   font-weight: normal;
   color: #FFF;
-  font-size: 18px;
+  font-size: 19px;
+  margin-top: 3px;
+  text-align: left;
  }
 input {
   display: inline-block;
@@ -86,10 +83,10 @@ input[type=number]::-webkit-outer-spin-button
 }
 button {
   box-sizing: border-box;
-  background-color: transparent;
+  background-color: black;
   border: 2px solid #FFF;
   cursor: pointer;
-  display: block;
+  
   position: relative;
   font-size: 1rem;
   margin: 0 auto;
@@ -97,44 +94,10 @@ button {
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
-}
-button:hover, button:focus {
-  color: #131417a6;
-  outline: 0;
-}
-button{
-  border-color: black;
+  border-color: white;
   border-radius: 20px;
-  color: white;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-button:after {
-  content: '';
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 0;
-  height: 100%;
-  background: black;
-  z-index: -1;
-  -webkit-transition: width 150ms ease-in-out;
-  transition: width 150ms ease-in-out;
-}
-button:hover {
-  color: #fff;
-}
-button:hover:after {
-  width: 110%;
-}
-button:active:after {
-  background: #131417a6;
+  color: #09286b;
+  position: relative; 
 }
 span {
   width: 100%;
@@ -150,7 +113,5 @@ span {
     margin: 0 auto 25px;
     border: 0;
   }
-  .titulo {
-    font-size: 0.9em;
-  }
 }
+
