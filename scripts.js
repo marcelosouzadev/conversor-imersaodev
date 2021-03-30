@@ -1,11 +1,15 @@
-document.querySelector('button').onclick = function() {
-
-  var ValorKm = Number(document.querySelector('input').value.replace('.',','))
+function converterParaMilhas() {
   
-  if (ValorKm < 1) {
-document.querySelector('span').innerHTML = "Valor inválido!"
-  } 
-  else {
-document.querySelector('span').innerHTML = 'Resultado: ' + (ValorKm * 0.62) + ' milhas' 
-  }  
+var valorEmKm = parseFloat(document.getElementById('KmToMilhas').value.replace(',', '.'))
+
+const valorFixoKm = 0.62
+
+var kmParaMilhas = (valorEmKm * valorFixoKm)
+
+if (kmParaMilhas) {
+document.getElementById('resultadoMilhas').innerHTML = "O resultado é: " + kmParaMilhas + " milhas"
+}                                             
+ else {
+    document.getElementById('resultadoMilhas').innerHTML = "Valor inválido!"
+ } 
 }
