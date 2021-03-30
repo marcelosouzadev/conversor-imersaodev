@@ -1,16 +1,13 @@
-<hmtl>
+<!DOCTYPE hmtl>
   <head>
     <meta charset="UTF-8"/>
     <title>
-      Conversor - Imersão Dev
+      Imersão Dev - Aula 01
     </title>
       <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet"/>
-      <link href="https://marcelosouzadev.github.io/conversor-imersaodev/style.css" rel="stylesheet" /> 
-      <script src="https://marcelosouzadev.github.io/conversor-imersaodev/scripts.js"></script>
    </head>
      <body>
-       <div class="barra">
-       </div>
+       <div class="barra"></div>
           <a href="https://alura.com.br/" target="_blank">
           <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"/>
           </a>
@@ -22,11 +19,10 @@
        <div class="titulo">Conversor de Km para Milhas
        </div>
          <div class="caixa">
-           <label>Quantos Km quer converter?
-           </label>
-        <input type="number" placeholder="Digite a quantidade"/>
-           <button>Converter em Milhas</button>
-           <span></span>
+           <p>Quantos Km quer converter?<p/>
+        <input type="number" id="KmToMilhas" placeholder="Digite a quantidade" />
+        <button type="submit" onclick="converterParaMilhas()" value="Converter">Converter em Milhas</button>
+          <h3 id="resultadoMilhas"><h3/>
         </div>
     </main>
    </header>
