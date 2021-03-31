@@ -76,11 +76,6 @@ input {
   background: transparent;
   border: 2px solid black;
 }
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button 
-{ 
-  -webkit-appearance: none; 
-}
 button {
   box-sizing: border-box;
   background-color: #BBB;
