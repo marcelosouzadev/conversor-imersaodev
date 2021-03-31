@@ -93,6 +93,7 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 20px;
+  border-color: 2px solid black;
   color: #09286b;
    
 }
